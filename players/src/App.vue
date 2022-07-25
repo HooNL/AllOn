@@ -1,8 +1,7 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/overons">OverOns</router-link> |
-    <router-link to="/contact">Contact</router-link>
-  </nav>
-  <router-view />
+  <Navbar />
+  <router-view class='container' />
+  <Footer />
 </template>
+
+ 
