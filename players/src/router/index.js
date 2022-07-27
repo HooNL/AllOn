@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import OverView from '@/views/OverView.vue'
 import ContactView from '@/views/ContactView.vue'
+import Player from '@/components/bucket/SinglePlayer'
 
 const routes = [
   {
@@ -18,6 +19,14 @@ const routes = [
     component: OverView,
     meta: {
       title: 'Over ons',
+    },
+  },
+  {
+    path: '/player',
+    name: 'player',
+    component: Player,
+    meta: {
+      title: 'Player',
     },
   },
   {

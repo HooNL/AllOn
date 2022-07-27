@@ -5,7 +5,7 @@ const gegevens = {
     {
       rugNummer: 1,
       positie: "Keeper",
-      post: "KG",
+      post: "GK",
       naam: "Peter Schmichel",
       age: 22,
       national: "Denemark",
@@ -137,7 +137,7 @@ const gegevens = {
       age: 27,
       national: "Spanje",
       lengte: 1.72,
-      gewicht: 85,
+      gewicht: 85, 
       speed: 8,
       titels: [
         " Champions League",
